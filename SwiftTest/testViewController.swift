@@ -28,17 +28,17 @@ class CustomBtn: UIButton {
 class testViewController: UIViewController {
 
     let btn : CustomBtn = {
-        let btn = CustomBtn(frame: CGRect(x: 20, y: 150, width: 100, height: 50), name: "点击", target: self, action: #selector(showViewController))
+        let btn = CustomBtn(frame: CGRect(x: 20, y: 150, width: 100, height: 50), name: "跳转", target: self, action: #selector(showViewController))
         return btn
     }()
     
     let btnSSkeySave : CustomBtn = {
-        let btn = CustomBtn(frame: CGRect(x: 20, y: 220, width: 100, height: 50), name: "点击", target: self, action: #selector(sSKeySave))
+        let btn = CustomBtn(frame: CGRect(x: 20, y: 220, width: 100, height: 50), name: "Save", target: self, action: #selector(sSKeySave))
         return btn
     }()
     
     let btnSSkeyRead : CustomBtn = {
-        let btn = CustomBtn(frame: CGRect(x: 20, y: 280, width: 100, height: 50), name: "点击", target: self, action: #selector(sSKeyRead))
+        let btn = CustomBtn(frame: CGRect(x: 20, y: 280, width: 100, height: 50), name: "Read", target: self, action: #selector(sSKeyRead))
         return btn
     }()
     
