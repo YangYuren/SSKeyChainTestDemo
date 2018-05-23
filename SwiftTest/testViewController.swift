@@ -69,7 +69,7 @@ extension testViewController{
     
     @objc func sSKeySave() -> Void {
         //先存储
-        let isSuccess : Bool = SSkeyChainTesst.storeYourPassword("Yang10086")
+        let isSuccess : Bool = SSkeyChainTesst.storeYourPassword("TestOne")
         if isSuccess {
             self.indicatorLabel.text = "Save Success"
         }else{
